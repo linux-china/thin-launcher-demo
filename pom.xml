@@ -14,7 +14,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.5.RELEASE</version>
+        <version>2.2.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -54,14 +54,14 @@
                     <dependency>
                         <groupId>org.springframework.boot.experimental</groupId>
                         <artifactId>spring-boot-thin-layout</artifactId>
-                        <version>1.0.22.RELEASE</version>
+                        <version>1.0.24.RELEASE</version>
                     </dependency>
                 </dependencies>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>3.2.1</version>
+                <version>3.2.3</version>
                 <configuration>
                     <shadedClassifierName>all</shadedClassifierName>
                     <createDependencyReducedPom>false</createDependencyReducedPom>
